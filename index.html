@@ -17,7 +17,101 @@
     <title>WhatsApp Web Clone</title>
 </head>
     <body>
-        
-        <i class="bi bi-xbox"></i>
+        <div class="container">
+            <aside class="sidebar">
+               <div class="toolbar-container">
+                <img class="user-photo" src="img/avatar1.png">
+                <div class="auxicons-toolbar-container">
+                    <i class="bi bi-arrow-clockwise"></i>
+                    <i class="bi bi-chat-left-fill"></i>
+                    <i class="bi bi-three-dots-vertical"></i>
+                </div>
+
+               </div>
+               <div class="notification-container">
+                   <i class="bi bi-bell-slash-fill"></i>
+                   <p class="receive-notification">Receba notificações de novas mensagens</p>
+                   <p class="active-notification">Ativar notificações na área de trabalho<i class="bi bi-caret-right-fill"></i></p>
+
+               </div>
+               <div class="search-container">
+                 <i id="contact-search" class="bi bi-search"></i>
+                 <input type="text" id="search" name="search" placeholder="Procurar ou começar uma nova conversa">
+
+               </div>
+               <div class="contacts-container">
+                 <div class="contact-box active-chat">
+                    <img class="user-photo" src="img/avatar2.png">
+                    <div class="user-info">
+                        <p class="user-name">Sabrina Matos</p>
+                        <p class="user-messagepreview"><i class="bi bi-search"></i>Oi,tudo bem?</p>
+
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">22:40</p>
+
+                    </div>
+
+                 </div>
+                 <!---->
+                 <div class="contact-box">
+                    <img class="user-photo" src="img/avatar3.png">
+                    <div class="user-info">
+                        <p class="user-name">João Augusto</p>
+                        <p class="user-messagepreview"><i class="bi bi-search"></i>Está disponível para um freela?</p>
+
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">12:30</p>
+                        <p class="message-pending">3</p>
+                    </div>
+                 </div>
+                 <!---->
+                 <div class="contact-box">
+                    <img class="user-photo" src="img/avatar4.png">
+                    <div class="user-info">
+                        <p class="user-name">Maria Silva</p>
+                        <p class="user-messagepreview"><i class="bi bi-search"></i>O projeto ficou perfeito,obrigada!</p>
+
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">22:40</p>
+                        <p class="message-pending">5</p>
+                    </div>
+                 </div>
+               </div>
+            </aside>
+            <main class="chat-container">
+                <nav class="chat-navbar">
+                    <div class="contactinfo-container">
+                        <img class="user-photo" src="img/avatar2.png">
+                        <p class="user-name">Ana Clara</p>
+
+                    </div>
+                    <ul class="chattools-container">
+                        <li><i class="bi bi-search"></i></li>
+                        <li><i class="bi bi-paperclip"></i></li>
+                        <li><i class="bi bi-three-dots-vertical"></i></li>
+
+                    </ul>
+
+                </nav>
+                <div class="messages-container">
+                    <div class="bg-image"></div>
+                    <div class="chat-messages">
+                        <p class="guest-message">Olá,bom dia</p>
+                        <p>Oi,tudo bem?</p>
+
+                    </div>
+
+                </div>
+                <div class="sendmessage-container">
+                    <input id="chatmessage" class="userinput" type="text" name="message" placeholder="Digite uma mensagem">
+                    <i class="bi bi-mic-fill"></i>
+                </div>
+
+            </main>
+
+        </div>
     </body>
 </html>
